@@ -194,6 +194,12 @@ a {
         }
     }
 
+    @media screen and (max-width: 720px) {
+        .post {
+            border-radius: 0px !important;
+        }
+    }
+
     .post {
         max-width: 720px;
         border-radius: 6px;
