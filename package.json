@@ -1,0 +1,26 @@
+{
+  "name": "elemental-tumblr-theme",
+  "version": "1.0.0",
+  "description": "A clean and white theme for Tumblr :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuriBrunetto/elemental-tumblr-theme.git"
+  },
+  "author": "Yuri Brunetto (http://www.ybrntt.com.br)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YuriBrunetto/elemental-tumblr-theme/issues"
+  },
+  "homepage": "https://github.com/YuriBrunetto/elemental-tumblr-theme#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.3",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.3"
+  }
+}

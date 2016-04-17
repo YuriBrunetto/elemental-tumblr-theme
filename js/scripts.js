@@ -10,7 +10,7 @@ $(function(){
 
             $(".header-social").show().addClass("animated bounceInLeft");
             $(".overlay").addClass("animated fadeIn");
-            $(".header-social").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+            $(".header-social").one("webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend", function(){
                 $this.show();
             });
         }, 200);
@@ -23,10 +23,10 @@ $(function(){
                 $this.removeClass("bounceInLeft").addClass("bounceOutLeft");
 
                 $(".overlay").removeClass("fadeIn").addClass("fadeOut");
-                $(".overlay").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+                $(".overlay").one("webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend", function(){
                     $(".overlay").remove();
                 });
-                $this.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+                $this.one("webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend", function(){
                     $this.removeClass("animated bounceOutLeft").hide();
                 });
             }
@@ -48,7 +48,7 @@ $(function(){
         $(".search-input").removeClass("is-active");
         setTimeout(function(){
             $(".overlay").removeClass("fadeIn").addClass("fadeOut");
-            $(".overlay").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+            $(".overlay").one("webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend", function(){
                 $(".overlay").remove();
             });
             $(".search-wrap").fadeOut(500).delay(500).hide();
@@ -60,7 +60,7 @@ $(function(){
             $(".search-input").removeClass("is-active");
             setTimeout(function(){
                 $(".overlay").removeClass("fadeIn").addClass("fadeOut");
-                $(".overlay").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+                $(".overlay").one("webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend", function(){
                     $(".overlay").remove();
                 });
                 $(".search-wrap").fadeOut(500).delay(500).hide();
